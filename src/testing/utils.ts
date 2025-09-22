@@ -216,10 +216,8 @@ function createNewServiceInstance<Service = unknown>
         const constructor = injectionToken as { new (): Service };
 
         return new constructor();
-    } catch (error){
-        // eslint-disable-next-line no-console
-        console.log(error);
-
+    } catch (error) {
+        // Do not log error, it's expected that some services cannot be instantiated.
         return null;
     }
 }

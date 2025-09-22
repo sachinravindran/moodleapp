@@ -1,10 +1,10 @@
 {
-    "name": "moodlemobile",
+    "name": "mentor-merlin",
     "version": "5.1.0",
-    "description": "The official app for Moodle.",
+    "description": "The official app for Mentor Merlin.",
     "author": {
-        "name": "Moodle Pty Ltd.",
-        "email": "mobile@moodle.com"
+        "name": "Mentor Merlin",
+        "email": "support@mentormerlin.com"
     },
     "repository": {
         "type": "git",

@@ -3,3 +3,12 @@
  */
 
 $brand-color: #0071DC;
+
+:root {
+    --ion-color-primary: #{$brand-color};
+    --ion-color-primary-rgb: 0,113,220;
+    --ion-color-primary-contrast: #ffffff;
+    --ion-color-primary-contrast-rgb: 255,255,255;
+    --ion-color-primary-shade: #0063c3;
+    --ion-color-primary-tint: #1a7ee1;
+}
